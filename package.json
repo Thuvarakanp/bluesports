@@ -4,7 +4,7 @@
   "private": true,
   "description": "Blue Star Sports Club — full-stack app (React + Express + MongoDB) on Vercel",
   "scripts": {
-    "vercel-build": "cd client && npm install && npm run build"
+    "vercel-build": "cd client && npm install --legacy-peer-deps && npm run build"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
